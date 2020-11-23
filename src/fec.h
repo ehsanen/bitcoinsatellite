@@ -13,6 +13,7 @@
 
 #define FEC_CHUNK_SIZE 1152
 #define CM256_MAX_CHUNKS 27
+#define FEC_CHUNK_COUNT_MAX (1 << 24)
 
 #include "wirehair/wirehair.h"
 #include "wirehair/cm256.h"
